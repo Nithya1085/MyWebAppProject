@@ -1,8 +1,8 @@
-node('master') 
+node('built-in') 
 {
     stage('Continuous Download') 
 	{
-    git 'https://github.com/sunildevops77/maven.git'
+    git 'https://github.com/Nithya1085/MyWebAppProject.git'
 	}
     stage('Continuous Build') 
 	{
